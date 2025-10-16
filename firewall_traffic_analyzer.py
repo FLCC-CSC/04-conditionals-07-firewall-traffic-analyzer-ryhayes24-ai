@@ -27,7 +27,7 @@ elif port == 80 and size >= 100:
 elif port == 443:
     print("Risk assessment: LOW RISK: Secure encrypted transfer detected.")
 else:
-    print("UNKNOWN: Unrecognized traffic pattern.")
+    print("Risk assessment: UNKNOWN: Unrecognized traffic pattern.")
 
 print("------------------------")
 
